@@ -2,8 +2,39 @@
 <html>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-<iframe src="https://www.wolframcloud.com/obj/bf82b8c9-0c01-466d-a4bc-83a3a1de77dc?_embed=iframe" style="width:90%"></iframe>
+<script>
+alert("test");
+function resize(iFrame) {
+         iFrame.width = iFrame.contentWindow.document.body.scrollWidth; 
+         iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+}
+
+window.addEventListener("DOMContentLoaded", function (e) {
+     var iframes = document.querySelectorAll("iframe");
+     for (var i = 0; i < iframes.length; i++) {
+         resize(iframes[i]);
+     }
+ });
+ </script>
+
+
+</script>
+
+<h1 style="font-family:Verdana,Helvetica,Arial,sans-serif;text-align:center;padding-bottom:2px;">Wordle Data Repository</h1>
+<p style="font-family:Georgia;text-align:center;padding-bottom:10px;">By: <a href=http://mehta-rohan.com style="font-weight:bold;">Rohan Mehta<a><p>
+<div style="text-align:center; width:75%;  margin-left:12%; margin-right:12%;">
+<p style="font-family:Georgia; text-align:left;line-height:1.5;">This site contains analytics data on the viral word-game Wordle. It is updated daily so that all graphics display the correct information. The code for the project was written in the Wolfram Language, and can be accessed <p>
+
+<p style="font-family:Georgia; text-align:left;line-height:1.5;">Please be patient with some of the graphics; they contain a lot of data, and so will not load instantly. Due to the amount of rendering required for the third visualization, it wil only display the last seven days worth of data at a time. The first two visualizations represent the entire dataset. You can request access to the entire dataset by reaching out to me, or . I hope you enjoy!</p>
+</div>
+
+
+<p align="center">
+<iframe src="https://www.wolframcloud.com/obj/598b86dd-e0d4-4fac-af14-27d7a9b14e7c?_embed=iframe" frameborder="0"></iframe>
+<iframe src="https://www.wolframcloud.com/obj/eb36622f-d90a-4220-93c8-389f4f7d0a44?_embed=iframe" frameborder="0"></iframe>
+<p> 
+
+<p align="center">
+<iframe src="https://www.wolframcloud.com/obj/17da3543-205d-4ec2-802f-f95d48ef5554?_embed=iframe" frameborder="0"></iframe>
 </body>
 </html>
