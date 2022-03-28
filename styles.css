@@ -1,0 +1,11 @@
+@media only screen and (max-width: 865px) {
+    .graphs {
+        padding-right:0%;
+        padding-left:8%;
+        text-align:center;
+    }
+
+    .graphs-2 {
+        padding-left:3%;
+    }
+}
