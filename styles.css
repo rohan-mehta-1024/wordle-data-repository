@@ -9,3 +9,20 @@
         padding-left:3%;
     }
 }
+
+#second{
+    height: 409px;
+}
+.three {
+    width:600px;
+    height: 413px;
+    vertical-align:text-top;
+    border:0;
+
+}
+
+@media screen and (max-width: 610px) {
+    .three {width: 400px;
+            height: 288px;}
+    #second {height: 285px;}
+}
