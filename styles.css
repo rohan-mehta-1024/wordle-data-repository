@@ -1,66 +1,15 @@
-@media only screen and (max-width: 865px) {
-    .graphs {
-        padding-right:0%;
-        padding-left:8%;
-        text-align:center;
-    }
-
-    .graphs-2 {
-        padding-left:3%;
-    }
-}
-
 .three {
-    width:650px;
-    height: 450px;
-    vertical-align:text-top;
-    border:0;
-    display:block; 
-
-}
-
-#one {
-    height:450x;
-}
-
-#two {
-    height: 441px;
-}
-
-#threee {
-    height: 445px;
+    width:80%;
+    margin-bottom:10px; 
 }
 
 #table {
-    border:none;
-    width:90%;
-    height:480px;
-    text-align:center;
+    width:100%;
+    margin-bottom: 20px;
 }
 
-@media screen and (max-width: 670px) {
-    .three {width: 400px;
-            height: 288px;}
-    #two {height: 282px;}
-    #threee {height: 285px;}
+
+@media screen and (max-width:850px) {
+/*    #table {width: 800px;}*/
 }
 
-@media screen and (max-width: 880px) {
-    #table {height: 700px;}
-    
-}
-
-@media screen and (max-width: 700px) {
-    #table {height: 600px;}
-    
-}
-
-@media screen and (max-width: 600px) {
-    #table {height: 510px;}
-    
-}
-
-@media screen and (max-width: 500px) {
-    #table {height: 440px;}
-    
-}
